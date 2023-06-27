@@ -1,27 +1,72 @@
 # Meteora
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+Meteora é um aplicativo web moderno e interativo que simula uma plataforma de e-commerce para uma loja de roupas fictícia. Desenvolvido em Angular, este projeto busca oferecer uma experiência de compra virtual agradável e intuitiva para os usuários.
 
-## Development server
+## Recursos Principais
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Catálogo de Produtos
+- Seções com Produtos Específicos
+- Carrinho de Compras
+- Sistema de Login
+- Formulário de pagamento validado
+- Modal de Login com formulário validado
 
-## Code scaffolding
+## Tecnologias
+- Angular
+- TypeScript
+- Bootstrap
+- NgRx
+- Karma
+- Jasmine
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Projeto Completo (Web)
 
-## Build
+https://github.com/RodrigoS2050/Meteora/assets/97991094/46e47d4a-7fcf-4ac3-83b1-6214ac04e322
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+https://github.com/RodrigoS2050/Meteora/assets/97991094/10a1f8a6-2e63-4100-b440-04c417aad554
 
-## Running unit tests
+## Projeto Completo (Mobile)
+Este é um projeto totalmente responsivo utilizando o Bootstrap
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+https://github.com/RodrigoS2050/Meteora/assets/97991094/deb03e2c-9b78-4e04-9216-5b97e5a074e7
 
-## Running end-to-end tests
+## Testes Unitários
+Este projeto utiliza o Karma e o Jasmine para criação de testes unitários.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![Captura de tela 2023-06-27 200124](https://github.com/RodrigoS2050/Meteora/assets/97991094/a5e92f41-0ce1-468c-a57b-26eac0c617f8)
 
-## Further help
+![Captura de tela 2023-06-27 200141](https://github.com/RodrigoS2050/Meteora/assets/97991094/9fdd3190-c94c-4b0e-8499-dc0c7eac62da)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Captura de tela 2023-06-27 200207](https://github.com/RodrigoS2050/Meteora/assets/97991094/2e0b5924-4e75-45eb-9968-afd72c8a2f98)
+
+# Rodando o projeto na sua máquina
+
+## Pré-requisitos
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
+
+- Node.js (versão 12 ou superior)
+- Angular CLI (versão 12 ou superior)
+
+## Configuração do projeto
+Siga os passos abaixo para configurar o projeto em sua máquina:
+
+Clone o repositório para o seu ambiente local:
+`git clone https://github.com/RodrigoS2050/Meteora.git`
+
+Navegue até o diretório do projeto:
+`cd nome-do-repositorio`
+
+Instale as dependências do projeto:
+`npm install`
+
+## Executando o projeto
+Após a configuração, você pode executar o projeto localmente. Utilize o seguinte comando:
+`ng serve`
+
+A aplicação estará disponível em http://localhost:4200/. A página será recarregada automaticamente sempre que houver alterações no código.
+
+## Executando testes
+Este projeto utiliza o Karma e o Jasmine para execução de testes. Para rodar os testes unitários, utilize o seguinte comando:
+`ng test`
+
+Isso iniciará a execução dos testes e mostrará os resultados no terminal.
