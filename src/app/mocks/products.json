@@ -1,0 +1,338 @@
+{
+  "shirts": [
+    {
+      "id": "7",
+      "name": "Camisa Urban Classic",
+      "description": "Camisa clássica e versátil, perfeita para o dia a dia, com corte elegante e variedade de cores neutras.",
+      "src": "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Camisa cinza pendurada na parede branca",
+      "price": 95,
+      "quantity": 1
+    },
+    {
+      "id": "8",
+      "name": "Camisa Tropical Breeze",
+      "description": "Camisa tropical com estampas vibrantes e cores exuberantes, ideal para os dias quentes de verão e ocasiões casuais.",
+      "src": "https://images.unsplash.com/photo-1585032767761-878270336a0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Homem na camiseta branca do pescoço da tripulação nike",
+      "price": 60,
+      "quantity": 1
+    },
+    {
+      "id": "9",
+      "name": "Camisa Vintage Retro",
+      "description": "Camisa com toque retrô e charme vintage, com estampa geométrica, manga longa e detalhes em contraste.",
+      "src": "https://images.unsplash.com/flagged/photo-1564468781192-f023d514222d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Camisa xadrez vermelha e branca",
+      "price": 220,
+      "quantity": 1
+    },
+    {
+      "id": "10",
+      "name": "Camisa Tech Performance",
+      "description": "Camisa de alto desempenho para atividades esportivas, com tecido técnico de absorção de umidade e secagem rápida e design ergonômico.",
+      "src": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=772&q=80",
+      "alt": "Camisa branca de manga comprida com pescoço de tripulação",
+      "price": 175,
+      "quantity": 1
+    },
+    {
+      "id": "11",
+      "name": "Camisa Boho Chic",
+      "description": "Camisa boêmia e descontraída, com tecido leve, detalhes de renda, bordados e amarrações, adicionando um toque artesanal ao seu visual.",
+      "src": "https://images.unsplash.com/photo-1530053364863-7afc6bcdca88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Suéter verde",
+      "price": 190,
+      "quantity": 1
+    },
+    {
+      "id": "12",
+      "name": "Camisa Elegance Glamour",
+      "description": "Camisa sofisticada e glamorosa para ocasiões especiais, feita de seda luxuosa, com detalhes de renda, botões de pérola e um corte refinado.",
+      "src": "https://images.unsplash.com/photo-1509129823085-3bf323eab856?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Duéter branco e preto em pé na estrada de concreto",
+      "price": 205,
+      "quantity": 1
+    }
+  ],
+  "handbag": [
+    {
+      "id": "13",
+      "name": "Bolsa Aurora",
+      "description": "Bolsa elegante com design inspirado no céu noturno, feita de couro suave e adornada com estrelas brilhantes.",
+      "src": "https://images.unsplash.com/photo-1605733513597-a8f8341084e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=929&q=80",
+      "alt": "Bolsa de couro preta na mesa branca",
+      "price": 180,
+      "quantity": 1
+    },
+    {
+      "id": "14",
+      "name": "Bolsa Encanto Floral",
+      "description": "Bolsa encantadora com padrão floral vibrante em tons pastel, detalhes em couro trabalhado à mão e fecho em formato de borboleta.",
+      "src": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
+      "alt": "Bolsa transversal de couro rosa",
+      "price": 205,
+      "quantity": 1
+    },
+    {
+      "id": "15",
+      "name": "Bolsa Tech Glam",
+      "description": "Bolsa metálica brilhante com compartimentos acolchoados para dispositivos eletrônicos, alças de corrente e detalhes dourados para um estilo glamouroso.",
+      "src": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80",
+      "alt": "Bolsa de ombro de couro preta Gucci",
+      "price": 280,
+      "quantity": 1
+    },
+    {
+      "id": "16",
+      "name": "Bolsa Boho Chic",
+      "description": "Bolsa boêmia com franjas, bordados étnicos, alças de ombro ajustáveis e fecho com detalhes de contas.",
+      "src": "https://images.unsplash.com/photo-1566150905968-62f0de3d6df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Bolsa transversal amarela",
+      "price": 60,
+      "quantity": 1
+    },
+    {
+      "id": "17",
+      "name": "Bolsa Urbana Compacta",
+      "description": "Bolsa durável e resistente à água, com vários bolsos internos e externos, além de uma alça de ombro destacável.",
+      "src": "https://images.unsplash.com/photo-1618274181513-c5b7e595a2e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Bolsa de couro marrom na mesa branca",
+      "price": 175,
+      "quantity": 1
+    },
+    {
+      "id": "18",
+      "name": "Bolsa Luxo Vintage",
+      "description": "Bolsa de luxo com acabamento em couro envelhecido, detalhes em ouro envelhecido, fecho giratório e forro de veludo para um toque sofisticado.",
+      "src": "https://images.unsplash.com/photo-1618274199869-89066d856879?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Bolsa de couro rosa na superfície branca",
+      "price": 130,
+      "quantity": 1
+    }
+  ],
+  "shoes": [
+    {
+      "id": "19",
+      "name": "Tênis AeroLev:",
+      "description": "Tênis com tecnologia de levitação magnética, oferecendo uma experiência de corrida suave e flutuante.",
+      "src": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Tênis Nike vermelho sem par",
+      "price": 195,
+      "quantity": 1
+    },
+    {
+      "id": "20",
+      "name": "Tênis NanoGrip",
+      "description": "Tênis com solas imitando a aderência das patas de um gecko, proporcionando uma tração excepcional em qualquer superfície.",
+      "src": "https://images.unsplash.com/photo-1605733160314-4fc7dac4bb16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=890&q=80",
+      "alt": "Close up de um par de botas marrons",
+      "price": 180,
+      "quantity": 1
+    },
+    {
+      "id": "21",
+      "name": "Tênis Tempus Boost",
+      "description": "Tênis inteligentes com amortecimento adaptável, ajustando-se automaticamente para oferecer o máximo de conforto e personalização.",
+      "src": "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=812&q=80",
+      "alt": "Tênis Nike marrom em tecido amarelo",
+      "price": 165,
+      "quantity": 1
+    },
+    {
+      "id": "22",
+      "name": "Tênis HyperGlide",
+      "description": "ênis de alto desempenho com tecnologia de propulsão a jato, proporcionando velocidade e capacidade de salto aprimoradas.",
+      "src": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80",
+      "alt": "Tênis esportivo nike verde e preto",
+      "price": 200,
+      "quantity": 1
+    },
+    {
+      "id": "23",
+      "name": "Tênis EkoFit",
+      "description": "Tênis sustentáveis com materiais reciclados, uma escolha consciente para corredores que se preocupam com o meio ambiente.",
+      "src": "https://images.unsplash.com/photo-1605408499391-6368c628ef42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "alt": "Tênis esportivo nike preto e branco",
+      "price": 250,
+      "quantity": 1
+    },
+    {
+      "id": "24",
+      "name": "Tênis HyperSensor",
+      "description": "Tênis avançados com sensores de movimento, fornecendo feedback em tempo real para melhorar o desempenho e evitar lesões.",
+      "src": "https://images.unsplash.com/photo-1494496195158-c3becb4f2475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Par de tênis Converse All-Star preto",
+      "price": 135,
+      "quantity": 1
+    }
+  ],
+  "pants": [
+    {
+      "id": "25",
+      "name": "Calça ComfortFit",
+      "description": "Calça confortável com corte amplo, tecido elástico e ajuste versátil para um estilo casual e descontraído.",
+      "src": "https://images.unsplash.com/photo-1604272804518-4496d93d3652?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=856&q=80",
+      "alt": "Pessoa em jeans azul e camisa branca",
+      "price": 70,
+      "quantity": 1
+    },
+    {
+      "id": "26",
+      "name": "Calça SlimTech",
+      "description": "Calça slim com tecido tecnológico de alta elasticidade, oferecendo ajuste elegante, propriedades de absorção de umidade e secagem rápida.",
+      "src": "https://images.unsplash.com/photo-1509003124559-eb6678fe452b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Mulher de camisa branca e calça jeans azul de frente para a parede",
+      "price": 210,
+      "quantity": 1
+    },
+    {
+      "id": "27",
+      "name": "Calça Vintage Denim",
+      "description": "Calça jeans com estilo vintage e desgastado, feita de denim macio e com detalhes desfiados para um visual autêntico e descontraído.",
+      "src": "https://images.unsplash.com/photo-1510734790177-c931e3956547?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80",
+      "alt": "Pessoa de calça cinza angustiada",
+      "price": 240,
+      "quantity": 1
+    },
+    {
+      "id": "28",
+      "name": "Calça Cargo Expedition",
+      "description": "Calça cargo resistente, funcional e inspirada em aventuras ao ar livre, com múltiplos bolsos espaçosos e tecido durável.",
+      "src": "https://images.unsplash.com/photo-1454720503269-3a35c21bebc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=706&q=80",
+      "alt": "Jeans azul desgastado feminino e par de tênis Converse Allstar branco",
+      "price": 160,
+      "quantity": 1
+    },
+    {
+      "id": "29",
+      "name": "Calça Chic Tailored",
+      "description": "Calça de alfaiataria elegante e sofisticada, feita de tecido premium, com corte impecável, cintura alta e pernas afuniladas.",
+      "src": "https://images.unsplash.com/photo-1444401045234-4a2ab1f645c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Mulher de jeans pé ao lado da cerca",
+      "price": 175,
+      "quantity": 1
+    },
+    {
+      "id": "30",
+      "name": "Calça Athleisure Fusion",
+      "description": "Calça versátil que combina estilo atlético com moda casual, com tecido confortável, detalhes esportivos e elástico na cintura para um visual moderno e confortável.",
+      "src": "https://images.unsplash.com/photo-1534773297835-3255d35dafda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Pessoa de calça jeans em pé no chão marrom",
+      "price": 205,
+      "quantity": 1
+    }
+  ],
+  "coats": [
+    {
+      "id": "31",
+      "name": "Casaco Vintage Velvet",
+      "description": "Casaco elegante de veludo macio com corte clássico, gola ampla e botões ornamentados, perfeito para ocasiões especiais.",
+      "src": "https://images.unsplash.com/photo-1608635680046-aebf91c1a9c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Casaco marrom que está na estrada durante o dia",
+      "price": 140,
+      "quantity": 1
+    },
+    {
+      "id": "32",
+      "name": "Jaqueta Urban Tech",
+      "description": "Jaqueta urbana com materiais resistentes, múltiplos bolsos, detalhes refletivos e capuz ajustável, ideal para o dia a dia na cidade.",
+      "src": "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Jaqueta Jeans",
+      "price": 190,
+      "quantity": 1
+    },
+    {
+      "id": "33",
+      "name": "Jaqueta Rebel Rock",
+      "description": "Jaqueta de couro ousada e estilosa com detalhes de tachas, zíperes assimétricos e forro estampado, para um visual rebelde.",
+      "src": "https://images.unsplash.com/photo-1620401494335-dfcb310cf5ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Mulher na jaqueta jeans azul que segura a lata",
+      "price": 145,
+      "quantity": 1
+    },
+    {
+      "id": "34",
+      "name": "Jaqueta Adventure Explorer",
+      "description": "Jaqueta resistente para aventuras ao ar livre, com material impermeável, bolsos práticos e capuz ajustável, perfeita para atividades ao ar livre.",
+      "src": "https://plus.unsplash.com/premium_photo-1664362416340-b27cb52f9385?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Mulher em uma jaqueta roxa segurando um objeto preto",
+      "price": 100,
+      "quantity": 1
+    },
+    {
+      "id": "35",
+      "name": "Jaqueta Cosmo Chic",
+      "description": "Jaqueta leve e elegante com estampas estelares, corte feminino, gola alta e fechamento com zíper, adicionando um toque de glamour ao seu estilo.",
+      "src": "https://images.unsplash.com/photo-1543076447-215ad9ba6923?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+      "alt": "Jaqueta lavada azul pendurada na porta branca",
+      "price": 215,
+      "quantity": 1
+    },
+    {
+      "id": "36",
+      "name": "Casaco Arctic Tech",
+      "description": "Casaco de inverno resistente ao frio extremo, com isolamento térmico avançado, capuz ajustável e tecido impermeável.",
+      "src": "https://plus.unsplash.com/premium_photo-1671030274122-b6ac34f87b8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Casaco pendurado em um varal",
+      "price": 300,
+      "quantity": 1
+    }
+  ],
+  "glasses": [
+    {
+      "id": "37",
+      "name": "Óculos Luminiscente Prismático",
+      "description": "Óculos futuristas com armação translúcida e lentes que se iluminam em cores vibrantes, permitindo que você se destaque.",
+      "src": "https://images.unsplash.com/photo-1603578119639-798b8413d8d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Óculos com armação preta e marrom",
+      "price": 85,
+      "quantity": 1
+    },
+    {
+      "id": "38",
+      "name": "Óculos Espectro Solar Dourado",
+      "description": "Óculos elegantes com lentes especiais que filtram a luz solar e criam um efeito prismático ao redor de você.",
+      "src": "https://images.unsplash.com/photo-1582142407894-ec85a1260a46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Óculos de armação dourada em papel branco",
+      "price": 125,
+      "quantity": 1
+    },
+    {
+      "id": "39",
+      "name": "Óculos Neurovisor",
+      "description": "Óculos de moda com uma interface cerebral avançada, exibindo informações relevantes nas lentes com base em sua atividade cerebral.",
+      "src": "https://images.unsplash.com/photo-1608906709312-fe17f7c1a5a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80",
+      "alt": "Óculos de armação preta na superfície branca",
+      "price": 200,
+      "quantity": 1
+    },
+    {
+      "id": "40",
+      "name": "Óculos Reflexo Holográfico",
+      "description": "Óculos com lentes reflexivas que projetam ilusões holográficas, permitindo que você crie imagens envolventes ao seu redor.",
+      "src": "https://images.unsplash.com/photo-1577803645773-f96470509666?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Óculos de sol de lente marrom com armação branca",
+      "price": 140,
+      "quantity": 1
+    },
+    {
+      "id": "41",
+      "name": "Óculos Reconhecimento Facial",
+      "description": "Óculos equipados com câmeras que escaneiam o ambiente, fornecendo informações em tempo real sobre as pessoas que você encontra.",
+      "src": "https://images.unsplash.com/photo-1585387015210-403b7652291f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+      "alt": "Óculos de sol com armação preta na superfície rosa",
+      "price": 90,
+      "quantity": 1
+    },
+    {
+      "id": "42",
+      "name": "Óculos Tempo Virtual",
+      "description": "Óculos de realidade virtual com lentes de realidade aumentada e sensores de movimento, permitindo que você explore um mundo digital imersivo.",
+      "src": "https://images.unsplash.com/photo-1588516190914-d96236c7b7ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "alt": "Óculos de armação preta na rocha marrom",
+      "price": 165,
+      "quantity": 1
+    }
+  ]
+}

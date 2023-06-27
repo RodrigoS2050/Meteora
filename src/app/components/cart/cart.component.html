@@ -1,0 +1,79 @@
+<div class="d-flex gap-3">
+  <button
+    type="button"
+    class="btn btn-primary"
+    data-bs-toggle="modal"
+    data-bs-target="#cartModal"
+  >
+    <div class="d-flex align-items-center text-light">
+      <i class="bi bi-cart"></i>
+      <div *ngIf="quantity$ | async as quantity">
+        <p class="m-0 px-1">{{ quantity }}</p>
+      </div>
+    </div>
+  </button>
+  <app-logout-modal></app-logout-modal>
+</div>
+
+<div
+  *ngIf="quantity$ | async as quantity"
+  class="modal fade"
+  id="cartModal"
+  tabindex="-1"
+  aria-labelledby="cartModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="cartModalLabel">Itens no carrinho</h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div *ngIf="items$ | async as items" class="modal-body">
+        <div
+          class="d-flex align-items-center justify-content-between"
+          *ngFor="let item of items"
+        >
+          <ul>
+            <li>
+              {{ item.name }} - {{ item.quantity }}x - R$ {{ item.price }},00
+            </li>
+          </ul>
+          <div>
+            <button class="btn btn-danger" (click)="removeProduct(item.id)">
+              Remover
+            </button>
+          </div>
+        </div>
+        <div *ngIf="totalPrice$ | async as totalPrice">
+          <p>
+            Total: <strong>R$ {{ totalPrice }},00</strong>
+          </p>
+        </div>
+        <div>
+          <p>
+            Quantidade total de itens: <strong>{{ quantity }}</strong>
+          </p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button
+          (click)="goToPayment()"
+          type="button"
+          class="btn btn-success"
+          data-bs-dismiss="modal"
+        >
+          Comprar
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Fechar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

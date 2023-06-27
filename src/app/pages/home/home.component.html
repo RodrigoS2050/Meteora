@@ -1,0 +1,64 @@
+<app-carousel></app-carousel>
+<app-category></app-category>
+<app-promotion></app-promotion>
+<section class="my-5 py-4 bg-black">
+  <h2 class="text-center text-light">Conheça todas as nossas facilidades</h2>
+  <div
+    class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3"
+  >
+    <div
+      *ngFor="let facility of facilities"
+      class="easiness-container d-flex align-items-center"
+    >
+      <i class="{{ facility.icon }} easiness-icon fs-1"></i>
+      <div>
+        <h5 class="easiness-text ms-3 mb-1">{{ facility.title }}</h5>
+        <p class="text-light small-text ms-3">
+          {{ facility.description }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="container d-flex flex-column align-items-center justify-content-center"
+>
+  <h2 class="text-center my-xl-2">
+    Preencha nosso formulário e fique sabendo de todas as novidades!
+  </h2>
+  <form
+    [formGroup]="form"
+    class="border border-secondary my-4 my-xl-5 p-5 text-center rounded"
+    (submit)="sendEmail()"
+  >
+    <h5>
+      Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira
+      compra? Cadastre-se!
+    </h5>
+    <div class="form-floating input-group mb-2">
+      <input
+        [ngClass]="{
+          'is-invalid': submitted && form.controls['email'].errors,
+          'is-valid': this.form.controls['email'].valid
+        }"
+        formControlName="email"
+        type="text"
+        class="form-control"
+        id="floatingEmail"
+        placeholder="Digite seu email"
+      />
+      <label for="floatingEmail">Email</label>
+      <button class="btn btn-primary input-group-button" type="submit">
+        Enviar
+      </button>
+    </div>
+    <div *ngIf="submitted && form.controls['email'].errors">
+      <div *ngIf="submitted && form.controls['email'].errors['required']">
+        <p class="text-danger">Email é obrigatório</p>
+      </div>
+      <div *ngIf="submitted && form.controls['email'].errors['email']">
+        <p class="text-danger">Email Inválido</p>
+      </div>
+    </div>
+  </form>
+</section>

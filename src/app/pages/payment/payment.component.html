@@ -1,0 +1,136 @@
+<section *ngIf="quantity$ | async as quantity" class="container my-5">
+  <h1>Itens no carrinho:</h1>
+  <div *ngIf="items$ | async as items">
+    <div
+      class="d-flex align-items-center justify-content-between"
+      *ngFor="let item of items"
+    >
+      <ul>
+        <li>{{ item.name }} - {{ item.quantity }}x - R$ {{ item.price }},00</li>
+      </ul>
+    </div>
+    <div *ngIf="totalPrice$ | async as totalPrice">
+      <p>
+        Total: <strong>R$ {{ totalPrice }},00</strong>
+      </p>
+    </div>
+    <div>
+      <p>
+        Quantidade total de itens: <strong>{{ quantity }}</strong>
+      </p>
+    </div>
+  </div>
+  <form [formGroup]="paymentForm">
+    <div class="form-floating mb-2">
+      <input
+        [ngClass]="{
+          'is-invalid': submitted && paymentForm.controls['username'].errors,
+          'is-valid': this.paymentForm.controls['username'].valid
+        }"
+        formControlName="username"
+        type="text"
+        class="form-control"
+        id="floatingInput"
+        placeholder="username"
+      />
+      <label for="floatingInput">Nome Completo</label>
+    </div>
+    <div *ngIf="submitted && paymentForm.controls['username'].errors">
+      <div
+        *ngIf="submitted && paymentForm.controls['username'].errors['required']"
+      >
+        <p class="text-danger">Nome é obrigatório</p>
+      </div>
+      <div
+        *ngIf="submitted && paymentForm.controls['username'].errors['pattern']"
+      >
+        <p class="text-danger">Nome Inválido</p>
+      </div>
+    </div>
+    <div class="form-floating mb-2">
+      <input
+        [ngClass]="{
+          'is-invalid': submitted && paymentForm.controls['creditCard'].errors,
+          'is-valid': this.paymentForm.controls['creditCard'].valid
+        }"
+        formControlName="creditCard"
+        type="number"
+        class="form-control"
+        id="floatingInput"
+        placeholder="0000-0000-0000-0000"
+      />
+      <label for="floatingInput"
+        >Cartão de Crédito <small>(Apenas Números)</small></label
+      >
+    </div>
+    <div *ngIf="submitted && paymentForm.controls['creditCard'].errors">
+      <div
+        *ngIf="
+          submitted && paymentForm.controls['creditCard'].errors['required']
+        "
+      >
+        <p class="text-danger creditCard">Cartão de Crédito é obrigatório</p>
+      </div>
+      <div
+        *ngIf="
+          submitted && paymentForm.controls['creditCard'].errors['pattern']
+        "
+      >
+        <p class="text-danger creditCard">Cartão de Crédito Inválido</p>
+      </div>
+    </div>
+    <div class="form-floating mb-2">
+      <input
+        [ngClass]="{
+          'is-invalid': submitted && paymentForm.controls['cvv'].errors,
+          'is-valid': this.paymentForm.controls['cvv'].valid
+        }"
+        formControlName="cvv"
+        type="number"
+        class="form-control"
+        id="floatingInput"
+        placeholder="123"
+      />
+      <label for="floatingInput">CVV</label>
+    </div>
+    <div *ngIf="submitted && paymentForm.controls['cvv'].errors">
+      <div *ngIf="submitted && paymentForm.controls['cvv'].errors['required']">
+        <p class="text-danger cvv">CVV é obrigatório</p>
+      </div>
+      <div *ngIf="submitted && paymentForm.controls['cvv'].errors['pattern']">
+        <p class="text-danger cvv">CVV Inválido</p>
+      </div>
+    </div>
+    <button
+      id="btn-teste"
+      (click)="finishPurchase()"
+      type="button"
+      class="btn btn-success"
+    >
+      Comprar
+    </button>
+  </form>
+</section>
+<div
+  *ngIf="purchaseCompleted"
+  class="container fixed-top animeLeft"
+  id="alertPurchaseCompleted"
+>
+  <div class="alert alert-success alert-dismissible" role="alert">
+    <h4 class="alert-heading">Sua compra foi efetuada com sucesso!</h4>
+    <p>Meteora agradece pela preferência.</p>
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="alert"
+      aria-label="Close"
+    ></button>
+  </div>
+</div>
+<div
+  class="text-center my-5"
+  *ngIf="!(quantity$ | async) && !purchaseCompleted"
+>
+  <h1>Parece que você não tem nennhum item no carrinho!</h1>
+  <p>Você deseja retornar para <a routerLink="/">Home</a>?</p>
+</div>

@@ -1,0 +1,152 @@
+<button
+  type="button"
+  class="btn btn-primary"
+  data-bs-toggle="modal"
+  data-bs-target="#loginModal"
+>
+  Login
+</button>
+
+<div
+  class="modal fade"
+  id="loginModal"
+  tabindex="-1"
+  aria-labelledby="loginModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="loginModalLabel">Efetuar login</h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <form [formGroup]="loginForm" (submit)="onSubmit()">
+        <div class="modal-body">
+          <div class="form-floating mb-2">
+            <input
+              [ngClass]="{
+                'is-invalid':
+                  submitted && loginForm.controls['username'].errors,
+                'is-valid': this.loginForm.controls['username'].valid
+              }"
+              formControlName="username"
+              type="text"
+              class="form-control"
+              id="floatingUsername"
+              placeholder="Digite seu username"
+            />
+            <label for="floatingUsername">Nome Completo</label>
+          </div>
+          <div *ngIf="submitted && loginForm.controls['username'].errors">
+            <div
+              *ngIf="
+                submitted && loginForm.controls['username'].errors['required']
+              "
+            >
+              <p class="text-danger">Nome é obrigatório</p>
+            </div>
+            <div
+              *ngIf="
+                submitted && loginForm.controls['username'].errors['pattern']
+              "
+            >
+              <p class="text-danger">Nome Inválido</p>
+            </div>
+          </div>
+          <div class="form-floating mb-2">
+            <input
+              [ngClass]="{
+                'is-invalid': submitted && loginForm.controls['email'].errors,
+                'is-valid': this.loginForm.controls['email'].valid
+              }"
+              formControlName="email"
+              type="text"
+              class="form-control"
+              id="floatingEmail"
+              placeholder="Digite seu email"
+            />
+            <label for="floatingEmail">Email</label>
+          </div>
+          <div *ngIf="submitted && loginForm.controls['email'].errors">
+            <div
+              *ngIf="
+                submitted && loginForm.controls['email'].errors['required']
+              "
+            >
+              <p class="text-danger">Email é obrigatório</p>
+            </div>
+            <div
+              *ngIf="submitted && loginForm.controls['email'].errors['email']"
+            >
+              <p class="text-danger">Email Inválido</p>
+            </div>
+          </div>
+          <div class="input-group form-floating mb-2">
+            <input
+              [ngClass]="{
+                'is-invalid':
+                  submitted && loginForm.controls['password'].errors,
+                'is-valid': this.loginForm.controls['password'].valid
+              }"
+              formControlName="password"
+              type="{{ showPassword ? 'text' : 'password' }}"
+              class="form-control"
+              id="floatingPassword"
+              placeholder="Password"
+            />
+            <label for="floatingPassword">Senha</label>
+            <span
+              role="button"
+              class="input-group-text"
+              (click)="togglePassword()"
+            >
+              <i
+                [ngClass]="
+                  showPassword ? 'bi bi-eye-slash-fill' : 'bi bi-eye-fill'
+                "
+              ></i>
+            </span>
+          </div>
+          <div *ngIf="submitted && loginForm.controls['password'].errors">
+            <div
+              *ngIf="
+                submitted && loginForm.controls['password'].errors['required']
+              "
+            >
+              <p class="text-danger">Senha é obrigatória</p>
+            </div>
+            <div
+              *ngIf="
+                submitted && loginForm.controls['password'].errors['pattern']
+              "
+            >
+              <p class="text-danger">É necessário pelo menos 6 dígitos</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            id="registerBtn"
+            class="close"
+            type="submit"
+            class="btn btn-success"
+          >
+            Cadastrar
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Fechar
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

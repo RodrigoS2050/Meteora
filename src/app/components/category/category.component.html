@@ -1,0 +1,17 @@
+<section>
+  <h2 class="text-center my-4">Busque por Categoria:</h2>
+  <div class="container row mx-auto g-4 scale">
+    <a
+      routerLink="/products/{{ category.link }}"
+      class="col-6 col-md-4 col-xxl-2"
+      *ngFor="let category of categories"
+    >
+      <div>
+        <div class="card border-0 bg-black">
+          <img src="{{ category.src }}" alt="{{ category.alt }}" />
+          <p class="pt-2 text-center text-light">{{ category.name }}</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</section>
