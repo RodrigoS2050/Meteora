@@ -35,7 +35,7 @@ Este projeto utiliza o Karma e o Jasmine para criação de testes unitários.
 
 ![Captura de tela 2023-06-27 200124](https://github.com/RodrigoS2050/Meteora/assets/97991094/a5e92f41-0ce1-468c-a57b-26eac0c617f8)
 
-![Captura de tela 2023-06-27 200141](https://github.com/RodrigoS2050/Meteora/assets/97991094/9fdd3190-c94c-4b0e-8499-dc0c7eac62da)
+![Captura de tela 2023-06-27 200141](https://github.com/RodrigoS2050/Meteora/assets/97991094/c77f97c6-3eb3-47e8-9bfb-845fb644b060)
 
 ![Captura de tela 2023-06-27 200207](https://github.com/RodrigoS2050/Meteora/assets/97991094/2e0b5924-4e75-45eb-9968-afd72c8a2f98)
 
