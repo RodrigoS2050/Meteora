@@ -39,7 +39,7 @@ Este projeto utiliza o Karma e o Jasmine para criação de testes unitários.
 
 ![Captura de tela 2023-06-27 200207](https://github.com/RodrigoS2050/Meteora/assets/97991094/2e0b5924-4e75-45eb-9968-afd72c8a2f98)
 
-# Rodando o projeto na sua máquina
+# Como rodar o projeto na sua máquina
 
 ## Pré-requisitos
 Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
