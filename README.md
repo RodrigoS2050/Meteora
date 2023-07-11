@@ -15,9 +15,9 @@ Meteora é um aplicativo web moderno e interativo que simula uma plataforma de e
 - Angular
 - TypeScript
 - Bootstrap
-- NgRx
 - Karma
 - Jasmine
+- NgRx
 
 ## Projeto Completo (Web)
 
